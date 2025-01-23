@@ -1,0 +1,20 @@
+{
+  "name": "annapurna-2.0",
+  "version": "1.0.0",
+  "description": "<img src=\"https://github.com/letscodeshivansh/Annapurna-fullstack-/assets/125864444/87a854b0-8616-4ecd-9136-7a6f42ff3208\" alt=\"mainlogo-photoaidcom-invert-removebg-preview\" width=\"150\"/>",
+  "main": "middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  }
+}
