@@ -35,7 +35,32 @@ body {
     color: #333;
     line-height: 1.2;
 }
-
+.title{
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+}
+.content{
+    font-size: 150%;
+    text-align: justify;
+    padding: 2%;
+}
+.donation{
+    background-color: #f5f5ef;
+}
+.aboutus{
+    background-color: #f5f5ef;
+    text-align: justify;
+    padding: 5%;
+}
+.about{
+    font-size: 150%;
+    align-content: center;
+    border-color: black;
+}
+.sections{
+    font-size: 150%;
+}
 /* Responsive design improvements */
 @media (max-width: 768px) {
     .navbar {
