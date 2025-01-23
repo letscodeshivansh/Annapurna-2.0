@@ -1,1 +1,25 @@
-/* add css file here */
+/* add css file herbody{
+    background-image: url(./assets/home.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{  
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    margin: 20px;
+}
+.card{
+    font-weight: bold;
+    margin-right: 200px;
+   
+}
+.quote{
+    margin-left: 150px;
+    margin-top: 50px;
+
+    font-size: 500%;
+}e */
