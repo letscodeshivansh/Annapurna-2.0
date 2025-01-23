@@ -61,6 +61,38 @@ body {
 .sections{
     font-size: 150%;
 }
+.why {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f6ecd9, #e6dac3);
+    text-align: center;
+    color: #3d2b1f;
+}
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+.reason{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.box {
+    background-color: #6b4f3f;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
 /* Responsive design improvements */
 @media (max-width: 768px) {
     .navbar {
