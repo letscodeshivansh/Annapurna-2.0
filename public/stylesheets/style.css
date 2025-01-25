@@ -45,6 +45,107 @@ body {
     text-align: justify;
     padding: 2%;
 }
+
+
+
+
+/* Map */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    /* gap: 20px; */
+}
+
+.left, .right {
+    flex: 1;
+    margin: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.food-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.food-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.food-card h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.food-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.food-card button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.food-card button:hover {
+    background-color: #0056b3;
+}
+
+.right {  /*mine */
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+}
+
+
+.right h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.map {
+    width: 100%;
+    /* max-width: 500px; */
+    border-radius: 8px;
+    margin-top: 10px;
+    -ms-flex-item-align: end;
+    
+   
+    
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
 .donation{
     background-color: #f5f5ef;
 }
