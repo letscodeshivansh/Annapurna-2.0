@@ -1,39 +1,27 @@
-body {
-    background-image: url('/assets/home.png');
-    background-size: cover;
+body{
+    background-image: url(./assets/home.png);
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-
-.navbar {  
-    background-size: cover;
+.navbar{  
+    background-size:cover;
     background-repeat: no-repeat;
     font-weight: bold;
     margin: 20px;
-    padding: 15px 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.card {
+.card{
     font-weight: bold;
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 200px;
+    padding: 15px;
 }
+.quote{
+    margin-left: 150px;
+    margin-top: 50px;
 
-.quote {
-    margin: 50px auto;
-    text-align: center;
-    font-size: 5rem;
-    max-width: 80%;
-    font-weight: bold;
-    color: #333;
-    line-height: 1.2;
+    font-size: 500%;
 }
 .title{
     font-size: 300%;
@@ -47,9 +35,10 @@ body {
 }
 
 
-
-
 /* Map */
+.search{
+    background-color: #f5f5ef;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -69,8 +58,6 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
-
 
 .food-card {
     background-color: #fff;
@@ -92,7 +79,7 @@ body {
     color: #333;
 }
 
-.food-card p {
+.para {
     font-size: 14px;
     color: #666;
 }
@@ -129,20 +116,10 @@ body {
     border-radius: 8px;
     margin-top: 10px;
     -ms-flex-item-align: end;
-    
-   
-    
+
 }
 
    
-
-
-
-
-
-
-
-
 
 
 
