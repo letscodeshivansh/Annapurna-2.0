@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Addition - Annapurna</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Annapurna</h1>
+        <button class="open-form-btn" onclick="openForm()">Add Surplus Food</button>
+    </div>
+
+    <!-- Food Addition Form -->
+    <div id="foodForm" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeForm()">&times;</span>
+            <h2>Add Your Surplus Food</h2>
+            <form id="foodFormElement" action="/submit-food" method="POST" enctype="multipart/form-data">
+                <label for="foodType">Type of Food:</label>
+                <select id="foodType" name="foodType" required>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="non-vegetarian">Non-Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                </select>
+
+                <label for="quantity">Quantity (per person):</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="duration">Cooked Duration (in hours):</label>
+                <input type="number" id="duration" name="duration" min="1" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location" required>
+
+                <label for="photo">Upload Food Image:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openForm() {
+            document.getElementById("foodForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("foodForm").style.display = "none";
+        }
+    </script>
+</body>
+</html>

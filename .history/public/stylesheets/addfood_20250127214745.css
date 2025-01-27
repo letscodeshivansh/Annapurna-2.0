@@ -1,0 +1,111 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    padding: 50px;
+}
+
+h1 {
+    color: #ff6600;
+    font-size: 36px;
+}
+
+.open-form-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.open-form-btn:hover {
+    background-color: #cc5200;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background: #fff;
+    color: #000;
+    width: 40%;
+    padding: 30px;
+    margin: 10% auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #ff6600;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #ff6600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #cc5200;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 80%;
+    }
+}

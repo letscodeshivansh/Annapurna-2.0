@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Annapurna</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="Home-fluid">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">   
+          <a class="navbar-brand" href="#">ANNAPURNA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+              
+              <!--li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li-->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success me-2" type="submit">Donate</button>
+            </form>
+            <button>
+              <a class="profile" href="#"><i class="fa fa-solid fa-user"></i></a>
+            </button>
+          </div>
+        </div>
+      </nav><br><br>
+      <div class="row">
+      <p class="quote col-md-6">
+        SERVING FOOD <br>
+        PREADING CARE   
+      
+      <div class="card ms-auto mt-5 mr-5 " style="width: 25rem;">
+        <img src="./assets/food.png" class="card-img-top mx-auto mt-4 "  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Food Donations</h5>
+          <p class="card-text">Quick example text about spreading food, care, and kindness to society.</p>
+         
+          <!-- Contribute Button -->
+<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contributeModal">Contribute</a>
+
+<!-- Contribute Modal -->
+<div class="modal fade" id="contributeModal" tabindex="-1" aria-labelledby="contributeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contributeModalLabel">Contribute to Annapurna</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="contribution" class="form-label">Contribution Details</label>
+            <textarea class="form-control" id="contribution" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit Contribution</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div></p>
+    </div>
+    </div>
+     
+
+<!-- Map -->
+
+<div class="Search">
+  <div class="title mb-5">Search and Get the Food</div>
+    <div class="row"> 
+      <div class="col-md-1"></div> 
+        <div class="food-card col-md-4 mb-5" style="width: 25rem;">
+        <img src="./assets/food1.jpg" class="card-img-top mx-auto mt-4" style="height: 250px; width: 330px ;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Search Food</h5>
+          <p class="card-text">Quick example text about spreading food, care, and kindness to society.</p>
+          <a href="#" class="btn btn-primary">Add Food in Cart</a>
+        </div>
+      </div>
+      <div class="col-md-1"></div> 
+      <div class="map col-md-4">
+          <img src="./assets/map.jpg" alt="Map" style="height: 400px; width: 630px;">
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--donation -->
+     <div class="donation ">
+      <div class="title mb-5">ONLINE DONATIONS TO EMPOWER HOPE IN INDIA</div>
+      <div class="row">
+        <div class="col-md-1"></div>
+      <div class="image col-md-4 mb-5" >
+        <img src="./assets/children.png" alt="Happy Children" style="height: 400px; width: 600px; border-radius: 5%;">
+      </div>
+      <div class="col-md-1"></div>
+      <div class="content col-md-5 mb-5">
+        Hotels often discard significant amounts of leftover food, contributing to global food waste. By connecting surplus food to those in need, your platform ensures that edible food is not wasted, aligning with sustainable practices.
+        <br /><br />
+        The platform can provide a lifeline to underprivileged communities by redistributing surplus food. This helps reduce food insecurity and ensures that nutritious meals reach those who might otherwise go hungry.
+        <img src="https://via.placeholder.com/80.png" alt="Sticker" class="sticker" />
+      </div>
+      <div class="col-md-1"></div>
+     </div>
+    </div>
+
+    
+    <!--about us-->
+    <div class="aboutus ">
+      <div class="row ">
+        
+        <div class="col-md-1 "></div>
+        <div class="about col-md-5 mb-5">
+          <h1 >About Us</h1>
+            <p>
+                Annapurna is a heartfelt initiative dedicated to eradicating hunger by reducing food wastage and redistributing surplus food to those in need. By collecting leftover food from weddings, restaurants, and events, we ensure it reaches shelters, NGOs, and underserved communities, giving it a second purpose.
+            </p>
+        </div>
+        
+      <div class="sections col-md-5 ">
+        <div class="section">
+            <h2>Healthy Meals for Families</h2>
+            <p>
+                Promoting health and well-being by providing rescued, nutritious meals to families facing hardships. These meals alleviate financial burdens and offer a sense of security during challenging times.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Seeds of Hope</h2>
+            <p>
+                Delivering wholesome, surplus food to children and youth in underserved areas. By ensuring access to nutritious meals, we empower the next generation to thrive and build a brighter future.
+            </p>
+        </div>
+        <div class="section ">
+            <h2>Start with Energy</h2>
+            <p>
+                Providing wholesome, rescued meals to combat hunger and support well-being. These meals ensure individuals stay nourished and energized, empowering them to lead healthier and more productive lives.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-1 "></div>
+      </div>
+    </div>
+
+
+    <!--why annapurna-->
+    <div class="why">
+    <h1>WHY ANNAPURNA?</h1>
+    <div class="reason">
+        <div class="box">TRANSPARENCY</div>
+        <div class="box">TAX BENEFITS</div><br>
+        <div class="box">GOOD HEALTH</div>
+        <div class="box">VOLUNTEER</div>
+    </div>
+
+    <div class="center-icon">
+        <img src="https://via.placeholder.com/80?text=Icon" alt="Center Icon">
+    </div>
+
+    <div class="footer-icons">
+        <img src="https://via.placeholder.com/80?text=Veggies" alt="Veggie Icon">
+        <img src="https://via.placeholder.com/80?text=Truck" alt="Truck Icon">
+    </div>
+    </div>
+
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <!-- Add this before the closing body tag -->
+<footer class="footer mt-5">
+  <div class="container">
+      <div class="row">
+          <!-- About Column -->
+          <div class="col-md-4">
+              <h2 class="footer-heading">About</h2>
+              <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Kitchen</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Corporate Social Responsibility</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+
+          <!-- Donations Column -->
+          <div class="col-md-4">
+              <h2 class="footer-heading">Donations</h2>
+              <ul class="footer-links">
+                  <li><a href="#">Donations Online</a></li>
+                  <li><a href="#">Donate Food Online</a></li>
+                  <li><a href="#">Donate on Birthday</a></li>
+                  <li><a href="#">Donate to Poor</a></li>
+                  <li><a href="#">Donate to Children</a></li>
+                  <li><a href="#">Donate to Schools</a></li>
+                  <li><a href="#">Donate on Marriage Anniversary</a></li>
+                  <li><a href="#">Donate to Tata Cancer</a></li>
+                  <li><a href="#">Donate on New Year</a></li>
+                  <li><a href="#">Donate on Makar Sankranti</a></li>
+              </ul>
+          </div>
+
+          <!-- Policies Column -->
+          <div class="col-md-4">
+              <h2 class="footer-heading">Policies</h2>
+              <ul class="footer-links">
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms</a></li>
+              </ul>
+          </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+          <a href="#" class="social-icon"><img src="path-to-instagram-icon.png" alt="Instagram"></a>
+          <a href="#" class="social-icon"><img src="path-to-linkedin-icon.png" alt="LinkedIn"></a>
+          <a href="#" class="social-icon"><img src="path-to-facebook-icon.png" alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="path-to-twitter-icon.png" alt="Twitter"></a>
+          <a href="#" class="social-icon"><img src="path-to-email-icon.png" alt="Email"></a>
+      </div>
+  </div>
+</footer>
+
+  </body>
+</html>
+<
