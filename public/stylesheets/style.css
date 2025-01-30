@@ -33,6 +33,33 @@ body{
     text-align: justify;
     padding: 2%;
 }
+.heading {
+  position: relative;
+  text-align: left;
+}
+
+.big-s {
+  margin-left: 70px;
+  margin-top: 50px;
+  font-size: 1200%;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: #000;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: -20px; /* Adjusted to move S higher */
+}
+
+.text {
+  margin-left: 170px;
+  margin-top: 50px;
+  font-size: 400%;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  /* Adjust for better alignment */
+}
 
 
 /* Map */
