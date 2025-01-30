@@ -368,3 +368,37 @@ h1 {
     }
   }
   
+  .social-icons {
+    position: fixed;
+    bottom: 20px; /* Adjust for vertical positioning */
+    right: 20px; /* Adjust for horizontal positioning */
+    display: flex;
+    gap: 5px; /* Reduced space between icons */
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Set a smaller width for the icon container */
+    height: 40px; /* Set a smaller height for the icon container */
+    border-radius: 50%; /* Make corners fully round */
+    overflow: hidden; /* Ensure any overflow content is hidden */
+    transition: background 0.3s; /* Transition for hover effects */
+}
+
+.social-icons a:hover {
+    background: rgba(0, 0, 0, 0.1); /* Light background on hover */
+    /* Removed box-shadow */
+}
+
+.social-icons a img {
+    width: 24px; /* Smaller icon size */
+    height: 24px; /* Smaller icon size */
+    transition: transform 0.3s; /* Zoom effect on hover */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    cursor: pointer;
+}
