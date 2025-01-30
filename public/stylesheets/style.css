@@ -36,7 +36,8 @@ body{
 
 
 /* Map */
-.search{
+.s{
+
     background-color: #f5f5ef;
 }
 .container {
@@ -124,7 +125,7 @@ body{
 
 
 .donation{
-    background-color: #f5f5ef;
+    background: linear-gradient(to bottom, #f6ecd9, #e6dac3);
 }
 .aboutus{
     background-color: #f5f5ef;
