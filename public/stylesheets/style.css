@@ -208,38 +208,56 @@ body {
     margin-bottom: 20px;
 }
 
-.why {
-    font-family: Arial, sans-serif;
+/* General Body Styles */
+body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f6ecd9, #e6dac3);
-    text-align: center;
-    color: #3d2b1f;
-}
-h1 {
-    font-size: 2em;
-    margin: 20px 0;
-}
-.reason{
+    font-family: Arial, sans-serif;
+    background-color: #f7ecd6; /* Matching the beige background */
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    gap: 20px;
-}
-.box {
-    background-color: #6b4f3f;
-    color: white;
-    padding: 20px 30px;
-    border-radius: 10px;
-    width: 150px;
-    font-size: 1em;
-    font-weight: bold;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    height: 100vh;
 }
 
+/* Container Styling */
+.container {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 36px;
+    color: #5a422c; /* Brown color */
+    margin-bottom: 40px;
+}
+
+/* Box Layout Styling */
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Spacing between boxes */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Individual Box Styling */
+.box {
+    background-color: #5a422c; /* Brown color for boxes */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 30px; /* Adjusted padding for a more rectangular shape */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Adjusted height for a rectangular appearance */
+}
 
 /* Responsive design improvements */
 @media (max-width: 768px) {
